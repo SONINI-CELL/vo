@@ -1,0 +1,52 @@
+button,a,body{
+background:linear-gradient(to right,blue,red);
+}
+.ss{
+
+ background:#8601d1;
+  width: 400px;
+    border-radius: 10px;
+    height: 100%;
+    padding: 5px;
+}
+label,h1{
+font-size:;
+color:gold;
+}
+label{
+font-size:20px;
+font-style: italic;
+font-family: Baskerville Old Face ;
+
+}
+
+.ss2{
+
+ background:#8601d1;
+  width: 400px;
+    border-radius: 50%;
+    height: 500px;
+    
+}
+button,a{color:springgreen;
+}
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color:#ffffff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-display: poppins;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background:#ffffff;
+  color:#333333;
+}

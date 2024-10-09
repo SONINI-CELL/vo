@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+header{
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("Pic1.jpg");
+	height: 100vh;/*height for the image above on the webpage*/
+	-webkit-background-size: cover;/* This will set the picture to cover the entire space available*/
+	background-size: cover;/* This will set the picture to cover the entire space available*/
+    background-position: center center;/*center from top and bottom plus left and right*/
+    position: relative;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+	background-color : red;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color:#ffffff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-display: poppins;
+	font-size: 14px;
+}
+.nav-area li a:hover{
+	background:#ffffff;
+	color:#333333;
+}
+.logo img{
+	width:100px;
+	float: left;
+	height: auto;
+}
+.welcome-txt{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.welcome-txt h1{
+	text-align: center;
+	color:#ffffff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-txt a{
+	border: 1px solid #ffffff;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color:#fff;
+}
+.welcome-txt a:hover{
+	background: #fff;
+	color:#333;
+}
